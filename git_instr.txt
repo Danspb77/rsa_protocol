@@ -1,0 +1,167 @@
+ 1475  wget  https://github.com/pyinstaller/pyinst...
+ 1476  wget https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbll4eTBUdjlZOWFJZWc3cXdzYURncUJ1Wkx4QXxBQ3Jtc0ttcTY5V0trSWNNV3R0d1l4STZyblZmWVdXMFB5WjRHVFphNTNLN2xDbmFmdXpWcERoMk9jRHNvSzdkdl9CRFVTbk5qQ1gtNGlvTjA4SGFYdXJwVGhFQUFXT0dpSVNXMVd0RktfTjQ5N0hlNmp6UjFMVQ&q=https%3A%2F%2Fgithub.com%2Fpyinstaller%2Fpyinstaller%2Freleases%2Fdownload%2Fv3.2%2FPyInstaller-3.2.tar.gz&v=fQnx3nsE29Y
+ 1511  sudo install git
+ 1512  sudo apt install git
+ 1513  git --version
+ 1514  git config --global user.name "Danya"
+ 1515  git config --global user.email "dan.shell@bk.ru"
+ 1516  git config
+ 1518  mkdir git
+ 1519  git init
+ 1521  git commit -m "initial comment"
+ 1522  git show 04717d28702a0e0b1185c0081b32be00be53b765
+ 1523  git restore app.py
+ 1524  git difff
+ 1525  git add app.py
+ 1526  git commit -m "Refactoring"
+ 1529  git commit -am "Refactoring"
+ 1530  git mv  app.py application.py
+ 1531  git restore --stage application.py
+ 1532  git restore aplication.py
+ 1533  git restore application.py
+ 1534  git restore application.py\n
+ 1535  git rm --cached application.py
+ 1537  git rm application.py
+ 1538  git rm app.py
+ 1545  git  mv applic.py rem.py
+ 1546  git rm --cached applic.py
+ 1547  git restore
+ 1550  git commit -am "can't delete files"
+ 1551  git commit -am "can't delete files2"
+ 1554  git show e775181061e525809404802879585e82cb203b2d
+ 1555  git show 56391ea533512fae6ba92500243ff038566b256d
+ 1559  git ..
+ 1560  git featherpad .gitignore
+ 1561  git commit -m "Add gitignore"
+ 1564  git show 1f7b066096de437c8470e4cf93bba60758520a12
+ 1575  git add file1.txt file2.txt
+ 1576  git commit -m "Add 2 file.txt"
+ 1577  git add docker.yaml
+ 1578  git rm docker.yaml
+ 1579  git rm -f docker.yaml
+ 1582  git log -2
+ 1583  git show c5de
+ 1584  git add file1.txt 
+ 1585  git commit -m "Changed file1.txt"
+ 1586  git log -1
+ 1587  git show 89
+ 1588  git show 89def
+ 1590  git checkout -- file2.txt
+ 1593  git add file2.txt
+ 1596  cat .gitignore
+ 1597  git show
+ 1602  git add file1.txt
+ 1603  git commit -m "Changed file1.txt and add gitignore"
+ 1604  git checkout -- file1
+ 1606  git checkout -- file1.txt
+ 1607  git add applic.py
+ 1610  git rm applic.py
+ 1611  git rm -f applic.py
+ 1612  git st
+ 1613  git commit -m "delete applic.py"
+ 1614  git commit -m "add log to ignore"
+ 1621  featherpad .gitignore
+ 1622  git add .gitignore
+ 1624  git clone https://github.com/Danspb77/mysuperproject1.git
+ 1628  git push super1.txt
+ 1629  git commit -m "add super1"
+ 1630  git push .
+ 1632  git add super1.txt
+ 1638  git remote set-url origin git@github.com:Danspb77/mysuperproject1.git
+ 1639  git init app_with_branch
+ 1642  git commit -m "First version 1,0"
+ 1645  git commit -m "Second version index.html"
+ 1646  git log -1 -p
+ 1648  git commit -m "Third version index.html"
+ 1649  git branch fix
+ 1650  git branch  -d fix
+ 1651  git checkout -b fix_error
+ 1653  git commit -m "Fourth version index.html"
+ 1654  git merge fix_error
+ 1655  git log  -p -1
+ 1656  git branch -d fix_error
+ 1657  git checkout -b add_version
+ 1659  git commit -m "Fourth.1 in branch add_version version index.html"
+ 1661  git commit -m "Fourth.2 in branch add_version version index.html"
+ 1662  git log  -p -3
+ 1663  git log  -p -4
+ 1664  git merge add_version
+ 1665  git branch -d add_version
+ 1668  git init app_with_tags
+ 1671  git commit -m "add file1 and file2"
+ 1672  git remote set-url origin git@github.com:Danspb77/app_with_tags.git
+ 1673  git remote add origin git@github.com:Danspb77/app_with_tags.git
+ 1674  git remore -v
+ 1677  git tad v1.0.0
+ 1678  git tag v1.0.0
+ 1679  git push origin v1.0.0
+ 1681  git commit -m "add file3"
+ 1682  git push
+ 1683  git tag v1.0.1
+ 1684  git push origin v1.0.1
+ 1685  git checkout -b fixing
+ 1689  git commit -m "fix files"
+ 1690  git tag v1.1.0
+ 1691  git log
+ 1692  git push origin v1.1.0
+ 1693  git push fixing
+ 1694  git push origin fixing
+ 1695  git tag -d v1.1.0
+ 1696  git push origin --delete v1.1.0
+ 1697  git branch
+ 1698  git branch -D fixing
+ 1699  git pull
+ 1700  git tag v1.2.0
+ 1701  git push origin v1.2.0
+ 1702  git checkout v1.0.0
+ 1703  git checkout main
+ 1704  git checkout master
+ 1705  git touch file777.txt
+ 1707  git commit -m "add lucky file"
+ 1708  git push 
+ 1709  git tag v2.0.0
+ 1710  git tag
+ 1711  git push origin --tags
+ 1713  git simp_py_lessons
+ 1714  git init simp_py_less
+ 1715  git remote set-url origin git@github.com:Danspb77/working_with-inthernet_PY.git
+ 1718  git commit -m "add add enthernet file"
+ 1719  git remote add origin git@github.com:Danspb77/working_with-inthernet_PY.git
+ 1720  git remote push
+ 1721  git remote push origin
+ 1724  git commit -m "add snowfall"
+ 1740  cd git
+ 1746  git commit -m "add file7"
+ 1751  git push -f
+ 1757  git commit --amend
+ 1759  git diff --staged
+ 1760  git diff
+ 1761  git push -f origin
+ 1772  git init difficult_py_lessons
+ 1783  git remote add origin git@github.com:Danspb77/difficult_py_lessons.git
+ 1789  git commit -m "add lesson about recursion"
+ 1791  git push --set-upstream origin master\n
+ 1794  git log -p
+ 1795  git pull main
+ 1798  git clone git 
+ 1799  git clone  git@github.com:Danspb77/difficult_py_lessons.git
+ 1814  git commit -m "add recursion"
+ 1844  git pull origin
+ 1845  git ls
+ 1877  git init automatization
+ 1884  ^[[200~git remote add origin git@github.com:Danspb77/automatization.git~
+ 1885  git remote add origin git remote add origin git@github.com:Danspb77/automatization.git
+ 1887  git remote add origin git@github.com:Danspb77/automatization.git\n
+ 1888  git remote -v
+ 1911  git  status
+ 1918  git commit -m "split input into dictionary"
+ 1920  git push --set-upstream origin master
+ 1921  git add .
+ 1922  git checkout -b printingBirthMessageUgly
+ 1923  git commit -m "rintingBirthMessage with ugly strings, without comments"
+ 1924  git branch 
+ 1926  git push --set-upstream origin printingBirthMessageUgly
+ 1927  git push origin
+ 1928  git push printingBirthMessageUgly
+ 1929  git push --set-upstream origin printingBirthMessageUgly\n
+ 2135  history | grep git
