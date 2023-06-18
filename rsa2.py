@@ -11,21 +11,22 @@ def is_prime(num):
     return True
 
 def generate_prime_number(bit_length):
-    # Генерация случайного простого числа заданной длины (в битах)
+    
     num = random.getrandbits(bit_length)
     while not is_prime(num):
         num = random.getrandbits(bit_length)
     return num
 
 def euler_function(p, q):
-    # Вычисление значения функции Эйлера от числа n
+    
     return (p - 1) * (q - 1)
 
 def generate_keypair():
     # Генерация открытого и закрытого ключей
-    bit_length = 32  # Длина простых чисел в битах
+    bit_length = 32  
     p = generate_prime_number(bit_length)
     q = generate_prime_number(bit_length)
+    print("p and q" ,p,q)
     n = p * q
     fi = euler_function(p, q)
 
@@ -50,16 +51,17 @@ def decrypt(encrypted_message, private_key):
     decrypted_message = [chr(pow(char, d, n)) for char in encrypted_message]
     return ''.join(decrypted_message)
 
-# Генерация ключей
+
 public_key, private_key = generate_keypair()
 
 # Шифрование и расшифровка сообщения
-message = "Hello world"
+message = "Hi from Chelyabinsk"
 encrypted_message = encrypt(message, public_key)
 decrypted_message = decrypt(encrypted_message, private_key)
 
 # Вывод результатов
-print("Открытый ключ (n, e):", public_key)
-print("Закрытый ключ (n, d):", private_key)
+
+print("Открытый ключ :", public_key)
+print("Закрытый ключ :", private_key)
 print("Зашифрованное сообщение:", encrypted_message)
 print("Расшифрованное сообщение:", decrypted_message)
